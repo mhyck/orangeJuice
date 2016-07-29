@@ -110,3 +110,114 @@ footer {
 	background-color: #7ACAC7;
 	padding: 30px;
 }
+
+/*media queries*/
+
+@media (max-width: 1250px) {
+	.orange {
+		margin-right: 5px;
+	}
+}
+
+@media (max-width: 1150px) {
+	.orange img {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media (max-width: 1040px) {
+	section {
+		padding-right: 50px;
+		padding-left: 0;
+
+	}
+}
+
+@media (max-width: 900px) {
+	ul a:nth-child(3) {
+		display: none;
+	}
+	.orange {
+		display: none;
+	}
+	footer {
+		margin-top: 200px;
+	}
+}
+
+@media (max-width: 755px) {
+	ul a:nth-child(2) {
+		display: none;
+	}
+}
+
+@media (max-width: 685px) {
+	.advert h1,
+	.advert span {
+		font-size: 30px;
+	}
+	.advert {
+		margin-left: 100px;
+		margin-right: 0;
+	}
+	.quoteButton {
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 675px) {
+	ul a:nth-child(4) {
+		display: none;
+	}
+}
+
+@media (max-width: 620px) {
+	.advert {
+		margin-left: 50px;
+	}
+	.quoteButton {
+		padding: 10px 30px;
+	}
+	.caseButton {
+		padding: 10px 30px;
+	}
+}
+
+@media (max-width: 600px) {
+	nav a img {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 555px) {
+	nav ul {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 510px) {
+	ul a:nth-child(5) {
+		display: none;
+	}
+	.quoteButton {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 470px) {
+	.advert h1 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 405px) {
+	ul a:first-child {
+		display: none;
+	}
+}
+@media (max-width: 330px) {
+	nav a {
+		padding-left: 0;
+	}
+}
